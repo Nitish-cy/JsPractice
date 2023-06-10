@@ -25,3 +25,7 @@ comparison
 logical
 string
 Other
+
+//Diff == and ===
+==-> check only value
+===->checks value and type both

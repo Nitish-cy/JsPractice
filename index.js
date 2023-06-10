@@ -17,3 +17,14 @@ console.log("Hello World");
 // console.log(arr[0]);
 // console.log(arr[1]);
 // console.log(arr[2]);
+
+//Currying in jS
+
+let multiply=function(x,y)
+{
+    console.log(x*y);
+
+}
+
+let multiplyByTwo=multiply.bind(this,2);
+multiplyByTwo(5);
