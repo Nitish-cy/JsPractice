@@ -17,6 +17,9 @@ let obj2={
 
 obj.getFullName.call(obj2,'Sultanpur','Uttar Pradesh');
 obj.getFullName.apply(obj2,['Sultanpur','Uttar Pradesh']);
+let fullName=obj.getFullName.bind(obj2,'Prayagraj','Uttar Pradesh');
+console.log(fullName);
+fullName()
 
 // obj.getFullName();
 //ther is no diff between call and apply -- but diff is if we want to pass arguments then we will pass - comma seperated but in apply we 
