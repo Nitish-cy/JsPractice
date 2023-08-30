@@ -113,3 +113,7 @@ const name =new String('Nitish Mishra');
 // // Inserts at index 1
 // console.log(months);
 // Expected output: Array ["Jan", "Feb", "March", "April", "June"]
+
+//Replace - first find and then replace
+name.replace('Nitish' , 'Shubham');
+console.log(name)
