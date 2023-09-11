@@ -1,18 +1,42 @@
-let user = {
+// 
+
+const person = {
   name: "John",
-  surname: "Smith",
-
-  get fullName() {
-    return `${this.name} ${this.surname}`;
+  age: 30,
+  city: "New York",
+  today:new Date(),
+  fullname:function(){
+    return 30;
   },
-
-  set fullName(value) {
-    [this.name, this.surname] = value.split(" ");
+  get secit(){
+    return this.city;
+  },
+  set ncity(cit){
+    this.city=cit;
   }
 };
 
-// set fullName is executed with the given value.
-user.fullName = "Alice Cooper";
+person.setName=function(){
+  return 'Shubham'
+}
 
-console.log(user.name); // Alice
-console.log(user.name); // Cooper
+console.log(person.setName)
+// person.ncity='Sultanpur'
+// console.log(person.secit)
+// console.log(person.ncity)
+// console.log(person.city)
+// const myArray = Object.values(person);
+// person.fullname=person.fullname.toString();
+// //console.log(myArray)
+// // o/p- [ 'John', 30, 'New York' ]
+// const objstr = JSON.stringify(person);
+// console.log(objstr)
+//console.log(person)
+
+// const arr=["Nitish","Mishra","Shubham"]
+// console.log(JSON.stringify(arr))
+function ma(){
+  return 'Shubham'
+}
+
+console.log(ma.toString())
