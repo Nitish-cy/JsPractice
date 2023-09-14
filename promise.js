@@ -16,3 +16,6 @@ promi.then(
     function(value){disp(value)},
     function(error){disp(error)}
 );
+
+//Advance 
+
