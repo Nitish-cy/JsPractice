@@ -1,0 +1,31 @@
+diff let and const
+const- we can't re-inizialise it 
+inizialise at the time of declaration.
+
+Datatypes->
+string
+nimber
+boolean
+undefined
+null
+bigint
+symbol
+
+Non-primitive
+Objects
+
+string can have single cote , double and back tick as well
+
+diff between null and undefined
+
+-->Operators
+Assignment Operators
+Arithmatic
+comparison
+logical
+string
+Other
+
+//Diff == and ===
+==-> check only value
+===->checks value and type both
